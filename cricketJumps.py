@@ -38,7 +38,17 @@ while i <= 100:
     y_out.append(y)
     i += 1
 
-while k <= 1000:
+x_outArray = array("i", x_out)
+y_outArray = array("i", y_out)
+
+for x in x_outArray:
+    dist(x) = math.sqrt((x_outArray(x))**2 + (y_outArray(x))**2)
+    print(dis(x))
+    
+
+    
+
+
     
     
     
