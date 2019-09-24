@@ -14,7 +14,7 @@ yValue = 0.
 i = 1
 j =1
 k = 1
-dist = 0.
+dist = 
 x = 0.
 y = 0.
 dx = 0.
@@ -23,11 +23,9 @@ x_out = []
 y_out = []
 
 #loop that goes through each cricket that jumped 
-while i <= 100:
-    
+while i <= 100: 
 #loop that goes through each jump that a specific cricket took 
     while j <= 1000:
-        
         d = .9**(j-1) #this is the distance that the cricket jumped each jump
         theta = 2 * math.pi * random.uniform(0.,1.) #the random direction of the jump
         dx = d*(math.cos(theta)) #calculate the distance traveled in the x direction 
@@ -38,11 +36,10 @@ while i <= 100:
 
     x_out.append(x)
     y_out.append(y)
-    dist = dist + math.sqrt((x**2) + (y**2))
     i += 1
 
-print(dist)
-
+while k <= 1000:
+    
     
     
     
